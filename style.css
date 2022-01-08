@@ -4,6 +4,24 @@ body{
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
 }
 
+@media(max-width: 767px) {
+	a.link-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #39e09b;
+    margin: 5px 10px;
+    width:75%;
+    color: #fff;
+    font-family: Garamond;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    }
+}
+
 .avatar {
   display: block;
   margin-left: auto;
